@@ -1,0 +1,18 @@
+{
+    "require" : {
+        "sat8bit/roombasim" : "dev-master",
+        "symfony/console" : "3.0.*@dev"
+    },
+    "repositories": [
+        {
+            "type":"vcs",
+            "url": "git://github.com/sat8bit/roombasim.git" 
+        }
+
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "sat8bit\\MyRoomba\\" : "src/MyRoomba/"
+        }
+    }
+}

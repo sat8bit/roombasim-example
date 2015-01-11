@@ -1,0 +1,110 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "55eaf2f5474696a554edee21a874ac4b",
+    "packages": [
+        {
+            "name": "sat8bit/roombasim",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sat8bit/roombasim.git",
+                "reference": "b09635f7450a3394b989e6b04cad4dcb2f087ec2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sat8bit/roombasim/zipball/b09635f7450a3394b989e6b04cad4dcb2f087ec2",
+                "reference": "b09635f7450a3394b989e6b04cad4dcb2f087ec2",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "3.0.*@dev"
+            },
+            "bin": [
+                "roombasim"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sat8bit\\RoombaSim\\": "src/RoombaSim/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/sat8bit/roombasim/tree/master",
+                "issues": "https://github.com/sat8bit/roombasim/issues"
+            },
+            "time": "2015-01-11 11:50:12"
+        },
+        {
+            "name": "symfony/console",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "3741aee1418a64e5207f273cf85072a3b673a432"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/3741aee1418a64e5207f273cf85072a3b673a432",
+                "reference": "3741aee1418a64e5207f273cf85072a3b673a432",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.7|~3.0",
+                "symfony/process": "~2.7|~3.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-01-06 17:50:37"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sat8bit/roombasim": 20,
+        "symfony/console": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
